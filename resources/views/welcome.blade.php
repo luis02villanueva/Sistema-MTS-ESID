@@ -9,7 +9,7 @@
 </head>
 <body id="kt_body" class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed aside-enabled aside-fixed" style="--kt-toolbar-height:55px;--kt-toolbar-height-tablet-and-mobile:55px">
 
-    <div class="d-flex flex-column flex-root">
+    {{-- <div class="d-flex flex-column flex-root">
         <!--begin::Page-->
         <div class="page d-flex flex-row flex-column-fluid">
             <!--begin::Aside-->
@@ -9122,9 +9122,13 @@
             <!--end::Wrapper-->
         </div>
         <!--end::Page-->
+    </div> --}}
+
+    <div id="app">
+        <App></App>
     </div>
 
-    <div class="engage-toolbar d-flex position-fixed px-5 fw-bolder zindex-2 top-50 end-0 transform-90 mt-20 gap-2">
+    {{-- <div class="engage-toolbar d-flex position-fixed px-5 fw-bolder zindex-2 top-50 end-0 transform-90 mt-20 gap-2">
         <!--begin::Demos drawer toggle-->
         <button id="kt_engage_demos_toggle" class="engage-demos-toggle btn btn-flex h-35px bg-body btn-color-gray-700 btn-active-color-gray-900 shadow-sm fs-6 px-4 rounded-top-0" title="Check out 22 more demos" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-dismiss="click" data-bs-trigger="hover">
             <span id="kt_engage_demos_label">Demos</span>
@@ -9147,9 +9151,9 @@
             </svg>
         </span>
         <!--end::Svg Icon-->
-    </div>
+    </div> --}}
 
-    <div class="modal fade" id="kt_modal_upgrade_plan" tabindex="-1" aria-hidden="true">
+    {{-- <div class="modal fade" id="kt_modal_upgrade_plan" tabindex="-1" aria-hidden="true">
         <!--begin::Modal dialog-->
         <div class="modal-dialog modal-xl">
             <!--begin::Modal content-->
@@ -9648,9 +9652,9 @@
             <!--end::Modal content-->
         </div>
         <!--end::Modal dialog-->
-    </div>
+    </div> --}}
 
-    <div class="modal fade" id="kt_modal_create_app" tabindex="-1" aria-hidden="true">
+    {{-- <div class="modal fade" id="kt_modal_create_app" tabindex="-1" aria-hidden="true">
         <!--begin::Modal dialog-->
         <div class="modal-dialog modal-dialog-centered mw-900px">
             <!--begin::Modal content-->
@@ -10350,9 +10354,9 @@
             <!--end::Modal content-->
         </div>
         <!--end::Modal dialog-->
-    </div>
+    </div> --}}
 
-    <div class="modal fade" id="kt_modal_invite_friends" tabindex="-1" aria-hidden="true">
+    {{-- <div class="modal fade" id="kt_modal_invite_friends" tabindex="-1" aria-hidden="true">
         <!--begin::Modal dialog-->
         <div class="modal-dialog mw-650px">
             <!--begin::Modal content-->
@@ -10907,9 +10911,9 @@
             <!--end::Modal content-->
         </div>
         <!--end::Modal dialog-->
-    </div>
+    </div> --}}
 
-    <div class="modal fade" id="kt_modal_users_search" tabindex="-1" aria-hidden="true">
+    {{-- <div class="modal fade" id="kt_modal_users_search" tabindex="-1" aria-hidden="true">
         <!--begin::Modal dialog-->
         <div class="modal-dialog modal-dialog-centered mw-650px">
             <!--begin::Modal content-->
@@ -11713,7 +11717,7 @@
             <!--end::Modal content-->
         </div>
         <!--end::Modal dialog-->
-    </div>
+    </div> --}}
 
     
     <script src="{{ asset('js/app.js') }}"></script>

@@ -20822,7 +20822,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  data: function data() {
+    return {
+      form: {
+        email: null,
+        password: null
+      }
+    };
+  }
+});
 
 /***/ }),
 
@@ -21608,9 +21617,73 @@ __webpack_require__.r(__webpack_exports__);
 var _hoisted_1 = {
   "class": "d-flex flex-column flex-root"
 };
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"d-flex flex-column flex-lg-row flex-column-fluid\"><!--begin::Aside--><div class=\"d-flex flex-column flex-lg-row-auto w-xl-600px positon-xl-relative\" style=\"background-color:#f2c98a;\"><!--begin::Wrapper--><div class=\"d-flex flex-column position-xl-fixed top-0 bottom-0 w-xl-600px scroll-y\"><!--begin::Content--><div class=\"d-flex flex-row-fluid flex-column text-center p-10 pt-lg-20\"><!--begin::Logo--><a href=\"../../demo1/dist/index.html\" class=\"py-9 mb-5\"><img alt=\"Logo\" src=\"assets/media/logos/logo-2.svg\" class=\"h-60px\"></a><!--end::Logo--><!--begin::Title--><h1 class=\"fw-bolder fs-2qx pb-5 pb-md-10\" style=\"color:#986923;\"> Welcome to Metronic </h1><!--end::Title--><!--begin::Description--><p class=\"fw-bold fs-2\" style=\"color:#986923;\"> Discover Amazing Metronic <br>with great build tools </p><!--end::Description--></div><!--end::Content--><!--begin::Illustration--><div class=\"d-flex flex-row-auto bgi-no-repeat bgi-position-x-center bgi-size-contain bgi-position-y-bottom min-h-100px min-h-lg-350px\" style=\"background-image:url(assets/media/illustrations/sketchy-1/13.png;\"></div><!--end::Illustration--></div><!--end::Wrapper--></div><!--end::Aside--><!--begin::Body--><div class=\"d-flex flex-column flex-lg-row-fluid py-10\"><!--begin::Content--><div class=\"d-flex flex-center flex-column flex-column-fluid\"><!--begin::Wrapper--><div class=\"w-lg-500px p-10 p-lg-15 mx-auto\"><!--begin::Form--><form class=\"form w-100\" novalidate=\"novalidate\" id=\"kt_sign_in_form\" data-kt-redirect-url=\"../../demo1/dist/index.html\" action=\"#\"><!--begin::Heading--><div class=\"text-center mb-10\"><!--begin::Title--><h1 class=\"text-dark mb-3\"> Sign In to Metronic </h1><!--end::Title--><!--begin::Link--><div class=\"text-gray-400 fw-bold fs-4\"> New Here? <a href=\"../../demo1/dist/authentication/layouts/aside/sign-up.html\" class=\"link-primary fw-bolder\">Create an Account</a></div><!--end::Link--></div><!--begin::Heading--><!--begin::Input group--><div class=\"fv-row mb-10\"><!--begin::Label--><label class=\"form-label fs-6 fw-bolder text-dark\">Email</label><!--end::Label--><!--begin::Input--><input class=\"form-control form-control-lg form-control-solid\" type=\"text\" name=\"email\" autocomplete=\"off\"><!--end::Input--></div><!--end::Input group--><!--begin::Input group--><div class=\"fv-row mb-10\"><!--begin::Wrapper--><div class=\"d-flex flex-stack mb-2\"><!--begin::Label--><label class=\"form-label fw-bolder text-dark fs-6 mb-0\">Password</label><!--end::Label--><!--begin::Link--><a href=\"../../demo1/dist/authentication/layouts/aside/password-reset.html\" class=\"link-primary fs-6 fw-bolder\">Forgot Password ?</a><!--end::Link--></div><!--end::Wrapper--><!--begin::Input--><input class=\"form-control form-control-lg form-control-solid\" type=\"password\" name=\"password\" autocomplete=\"off\"><!--end::Input--></div><!--end::Input group--><!--begin::Actions--><div class=\"text-center\"><!--begin::Submit button--><button type=\"submit\" id=\"kt_sign_in_submit\" class=\"btn btn-lg btn-primary w-100 mb-5\"><span class=\"indicator-label\">Continue</span><span class=\"indicator-progress\">Please wait... <span class=\"spinner-border spinner-border-sm align-middle ms-2\"></span></span></button><!--end::Submit button--><!--begin::Separator--><div class=\"text-center text-muted text-uppercase fw-bolder mb-5\"> or </div><!--end::Separator--><!--begin::Google link--><a href=\"#\" class=\"btn btn-flex flex-center btn-light btn-lg w-100 mb-5\"><img alt=\"Logo\" src=\"assets/media/svg/brand-logos/google-icon.svg\" class=\"h-20px me-3\">Continue with Google</a><!--end::Google link--><!--begin::Google link--><a href=\"#\" class=\"btn btn-flex flex-center btn-light btn-lg w-100 mb-5\"><img alt=\"Logo\" src=\"assets/media/svg/brand-logos/facebook-4.svg\" class=\"h-20px me-3\">Continue with Facebook</a><!--end::Google link--><!--begin::Google link--><a href=\"#\" class=\"btn btn-flex flex-center btn-light btn-lg w-100\"><img alt=\"Logo\" src=\"assets/media/svg/brand-logos/apple-black.svg\" class=\"h-20px me-3\">Continue with Apple</a><!--end::Google link--></div><!--end::Actions--></form><!--end::Form--></div><!--end::Wrapper--></div><!--end::Content--><!--begin::Footer--><div class=\"d-flex flex-center flex-wrap fs-6 p-5 pb-0\"><!--begin::Links--><div class=\"d-flex flex-center fw-bold fs-6\"><a href=\"https://keenthemes.com\" class=\"text-muted text-hover-primary px-2\" target=\"_blank\">About</a><a href=\"https://devs.keenthemes.com\" class=\"text-muted text-hover-primary px-2\" target=\"_blank\">Support</a><a href=\"https://1.envato.market/EA4JP\" class=\"text-muted text-hover-primary px-2\" target=\"_blank\">Purchase</a></div><!--end::Links--></div><!--end::Footer--></div><!--end::Body--></div>", 1);
+var _hoisted_2 = {
+  "class": "d-flex flex-column flex-lg-row flex-column-fluid"
+};
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"d-flex flex-column flex-lg-row-auto w-xl-600px positon-xl-relative\" style=\"background-color:#f2c98a;\"><div class=\"d-flex flex-column position-xl-fixed top-0 bottom-0 w-xl-600px scroll-y\"><div class=\"d-flex flex-row-fluid flex-column text-center p-10 pt-lg-20\"><a href=\"../../demo1/dist/index.html\" class=\"py-9 mb-5\"><img alt=\"Logo\" src=\"assets/media/logos/logo-2.svg\" class=\"h-60px\"></a><h1 class=\"fw-bolder fs-2qx pb-5 pb-md-10\" style=\"color:#986923;\"> Welcome to Metronic </h1><p class=\"fw-bold fs-2\" style=\"color:#986923;\"> Discover Amazing Metronic <br>with great build tools </p></div><div class=\"d-flex flex-row-auto bgi-no-repeat bgi-position-x-center bgi-size-contain bgi-position-y-bottom min-h-100px min-h-lg-350px\" style=\"background-image:url(assets/media/illustrations/sketchy-1/13.png;\"></div></div></div>", 1);
+var _hoisted_4 = {
+  "class": "d-flex flex-column flex-lg-row-fluid py-10"
+};
+var _hoisted_5 = {
+  "class": "d-flex flex-center flex-column flex-column-fluid"
+};
+var _hoisted_6 = {
+  "class": "w-lg-500px p-10 p-lg-15 mx-auto"
+};
+var _hoisted_7 = {
+  "class": "form w-100",
+  novalidate: "novalidate",
+  id: "kt_sign_in_form",
+  "data-kt-redirect-url": "../../demo1/dist/index.html",
+  action: "#"
+};
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-center mb-10"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+  "class": "text-dark mb-3"
+}, " Sign In to Metronic "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-gray-400 fw-bold fs-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" New Here? "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "../../demo1/dist/authentication/layouts/aside/sign-up.html",
+  "class": "link-primary fw-bolder"
+}, "Create an Account")])], -1 /* HOISTED */);
+var _hoisted_9 = {
+  "class": "fv-row mb-10"
+};
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+  "class": "form-label fs-6 fw-bolder text-dark"
+}, "Email", -1 /* HOISTED */);
+var _hoisted_11 = {
+  "class": "fv-row mb-10"
+};
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "d-flex flex-stack mb-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+  "class": "form-label fw-bolder text-dark fs-6 mb-0"
+}, "Password"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "../../demo1/dist/authentication/layouts/aside/password-reset.html",
+  "class": "link-primary fs-6 fw-bolder"
+}, "Forgot Password ?")], -1 /* HOISTED */);
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"text-center\"><button type=\"submit\" id=\"kt_sign_in_submit\" class=\"btn btn-lg btn-primary w-100 mb-5\"><span class=\"indicator-label\">Continue</span><span class=\"indicator-progress\">Please wait... <span class=\"spinner-border spinner-border-sm align-middle ms-2\"></span></span></button></div>", 1);
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"d-flex flex-center flex-wrap fs-6 p-5 pb-0\"><!--begin::Links--><div class=\"d-flex flex-center fw-bold fs-6\"><a href=\"https://keenthemes.com\" class=\"text-muted text-hover-primary px-2\" target=\"_blank\">About</a><a href=\"https://devs.keenthemes.com\" class=\"text-muted text-hover-primary px-2\" target=\"_blank\">Support</a><a href=\"https://1.envato.market/EA4JP\" class=\"text-muted text-hover-primary px-2\" target=\"_blank\">Purchase</a></div><!--end::Links--></div>", 1);
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("begin::Authentication - Sign-in "), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("end::Authentication - Sign-in")]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", _hoisted_7, [_hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+    "class": "form-control form-control-lg form-control-solid",
+    type: "text",
+    "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
+      return $data.form.email = $event;
+    }),
+    name: "email",
+    autocomplete: "off"
+  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.form.email]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [_hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+    "class": "form-control form-control-lg form-control-solid",
+    type: "password",
+    name: "password",
+    "onUpdate:modelValue": _cache[1] || (_cache[1] = function ($event) {
+      return $data.form.password = $event;
+    }),
+    autocomplete: "off"
+  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.form.password]])]), _hoisted_13])])]), _hoisted_14])])]);
 }
 
 /***/ }),
@@ -23809,32 +23882,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
-
-/**
- * We'll load the axios HTTP library which allows us to easily issue requests
- * to our Laravel back-end. This library automatically handles sending the
- * CSRF token as a header based on the value of the "XSRF" token cookie.
- */
-
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
-
-/**
- * Echo exposes an expressive API for subscribing to channels and listening
- * for events that are broadcast by Laravel. Echo and event broadcasting
- * allows your team to easily build robust real-time web applications.
- */
-
-// import Echo from 'laravel-echo';
-
-// window.Pusher = require('pusher-js');
-
-// window.Echo = new Echo({
-//     broadcaster: 'pusher',
-//     key: process.env.MIX_PUSHER_APP_KEY,
-//     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
-//     forceTLS: true
-// });
 
 /***/ }),
 
